@@ -1,0 +1,104 @@
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+/* MODULES - Individual site components */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666; }
+
+a, a:hover, a:focus {
+  color: #00aff0;
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+/* input, textarea, button{
+	@include border-radius(0px);
+}
+ */
+img.device {
+  width: 100%; }
+
+img.device-small {
+  width: 70%;
+  margin-bottom: -40px; }
+
+/* MODULES - Individual site components */
+section {
+  padding: 0; }
+
+.showcase {
+  padding: 1rem 0; }
+  .showcase .showcase__item {
+    overflow: hidden; }
+    .showcase .showcase__item h3 {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+      text-align: center; }
+  .showcase .showcase__main-item {
+    overflow: hidden; }
+    .showcase .showcase__main-item img {
+      position: relative;
+      left: -100px; }
+    .showcase .showcase__main-item .showcase__main-detail {
+      max-width: 500px;
+      background-color: #ffffff;
+      margin: 0 auto;
+      position: relative;
+      padding: 1rem;
+      top: -50px;
+      text-align: center; }
+      .showcase .showcase__main-item .showcase__main-detail h3, .showcase .showcase__main-item .showcase__main-detail p {
+        margin: 0; }
+
+/* MODULES - Individual site components */
+.header {
+  width: 100%; }
+  .header .header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto; }
+    .header .header__container .header__logo {
+      width: 100%;
+      padding: 2rem;
+      display: block; }
+      .header .header__container .header__logo img {
+        width: 400px;
+        display: block;
+        margin: 0 auto; }
+    .header .header__container .header__menu {
+      background-color: azure;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .header .header__container .header__menu ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0;
+        height: max-content; }
+        .header .header__container .header__menu ul a {
+          color: #353535;
+          font-weight: 700;
+          font-size: 1.25rem;
+          margin: 0 2rem;
+          padding: .5rem 0;
+          display: block;
+          border-bottom: 3px solid transparent;
+          transition: .5s ease;
+          transition-property: color, border-color; }
+        .header .header__container .header__menu ul a:hover, .header .header__container .header__menu ul a.active {
+          border-color: #fc0254;
+          color: #fc0254; }
+      .header .header__container .header__menu .fa-search {
+        font-size: 1.25rem;
+        cursor: pointer;
+        margin: 0 2rem; }
